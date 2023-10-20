@@ -626,6 +626,12 @@ progress {
 .figure-img {
   margin-bottom: 0.5rem;
   line-height: 1;
+  
+}
+
+img {
+  max-width: 120%; /* Limits the image width to its parent container's width */
+  height: auto;
 }
 
 .figure-caption {
