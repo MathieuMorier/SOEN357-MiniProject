@@ -167,6 +167,8 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 abbr[title] {
@@ -301,6 +303,13 @@ kbd kbd {
 
 figure {
   margin: 0 0 1rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 2em;
+}
+figcaption {
+  text-align: center;
+  padding-bottom: 2em;
 }
 
 img,
@@ -617,6 +626,12 @@ progress {
 .figure-img {
   margin-bottom: 0.5rem;
   line-height: 1;
+  
+}
+
+img {
+  max-width: 120%; /* Limits the image width to its parent container's width */
+  height: auto;
 }
 
 .figure-caption {
