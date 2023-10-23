@@ -303,9 +303,11 @@ kbd kbd {
 
 figure {
   margin: 0 0 1rem;
-  display: flex;
+  display:flex;
+  flex-wrap: wrap;
   justify-content: center;
   padding-top: 2em;
+  max-width: auto;
 }
 figcaption {
   text-align: center;
@@ -630,7 +632,7 @@ progress {
 }
 
 img {
-  max-width: 120%; /* Limits the image width to its parent container's width */
+  max-width: 130%; /* Limits the image width to its parent container's width */
   height: auto;
 }
 
